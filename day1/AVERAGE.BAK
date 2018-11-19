@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int n,i;
+float num[100],sum = 0.0, average;
+printf("enter the number of element");
+scanf("%d",&n);
+while(n>10=n<=10)
+{
+printf("enter number should be in range of (1 to 100)\n");
+printf("enter the number again");
+scanf("%d",&n);
+}
+for(i=0;i<n;i++)
+{
+printf("%denter the",i+1);
+scanf("%f",&num[i]);
+sum+=num[i];
+}
+average=sum /n;
+printf("average=%2f"average);
+retrun 0;
+}
+
